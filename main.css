@@ -1,0 +1,19 @@
+.body {
+	font-size: 12pt;
+	font-weight: 400;
+	font-family: "Segoue UI", sans-serif;
+	text-decoration: none;
+	text-rendering: optimizeSpeed;
+	color: #afafaf;
+}
+
+.a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: #333333;
+}
