@@ -10,7 +10,13 @@ p {
 
 p a {
 	text-decoration: underline;
-	text-dcoration-color: inherit;
+	text-decoration-color: inherit;
+}
+
+h {
+	font-size: 2em;
+	font-weight: 700;
+	color: #bbbbbb;
 }
 
 #wrapper {
@@ -23,18 +29,21 @@ p a {
 	text-decoration: none;
 	text-rendering: optimizeSpeed;
 	color: #afafaf;
-	align-items: center;
-	align: center;
-	align-content: center;
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
 
-h {
-	font-size: 2em;
-	font-weight: 700;
-	color: #bbbbbb;
+#head-runner {
+	width: 100%;
+	background-color: #3a3a41;
+	border-bottom: 2px solid #444444;
+	padding: 1em 10%;
+}
+
+#main-content {
+	width: 100%;
+	padding: 1em 10%;
 }
 
 .center-box {
@@ -43,12 +52,4 @@ h {
 
 .center-text {
 	text-align: center;
-}
-
-#head-runner {
-	align: center;
-	width: 100%;
-	background-color: #3a3a41;
-	border-bottom: 2px solid #444444;
-	padding: 1em;
 }
