@@ -3,11 +3,6 @@ a {
 	color: inherit;
 }
 
-p {
-	color: #afafaf;
-	text-decoration-color: #afafaf;
-}
-
 p a {
 	text-decoration: underline;
 	text-decoration-color: inherit;
@@ -16,10 +11,9 @@ p a {
 h {
 	font-size: 2em;
 	font-weight: 700;
-	color: #bbbbbb;
 }
 
-#wrapper {
+body {
 	width: 100%;
 	height: 100%;
 	background-color: #303036;
@@ -28,28 +22,36 @@ h {
 	font-family: "Segoue UI", sans-serif;
 	text-decoration: none;
 	text-rendering: optimizeSpeed;
-	color: #afafaf;
+	color: #e0e0e0;
+	text-decoration-color: #e0e0e0;
 	margin: 0;
-	padding: 0;
+	padding: 1em 10%;
 	border: 0;
+	
+	background: rgb(88,51,106);
+	background: -webkit-linear-gradient(bottom, rgba(88,51,106,1) 15%, rgba(122,70,147,1) 85%);
+	background: -o-linear-gradient(bottom, rgba(88,51,106,1) 15%, rgba(122,70,147,1) 85%);
+	background: linear-gradient(to top, rgba(88,51,106,1) 15%, rgba(122,70,147,1) 85%);
 }
 
-#head-runner {
-	width: 100%;
-	background-color: #3a3a41;
-	border-bottom: 2px solid #444444;
-	padding: 1em 10%;
+.card-view {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: flex-end;
 }
 
-#main-content {
-	width: 100%;
-	padding: 1em 10%;
+.card {
+	border-radius: 8px;
+	box-shadow: -2px 3px 8px 1px rgba(0,0,0,0.2);
+  	transition: 0.36s;
+	overflow: hidden;
+	margin: auto;
+	width: 12%;
 }
 
-.center-box {
-	margin: 0 auto;
-}
-
-.center-text {
+.card p {
 	text-align: center;
 }
+
