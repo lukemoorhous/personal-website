@@ -7,16 +7,18 @@ body {
 	
 	display: flex;
 	flex-flow: column nowrap;
-	justify-content: center;
+	justify-content: flex-start;
 	
+	background-color: rgba(122,70,147,1);
+	
+/* Tiling ..?
 	background: rgb(88,51,106);
 	background: -webkit-linear-gradient(bottom, rgba(88,51,106,1) 15%, rgba(122,70,147,1) 85%);
 	background: -o-linear-gradient(bottom, rgba(88,51,106,1) 15%, rgba(122,70,147,1) 85%);
-	background: linear-gradient(to top, rgba(88,51,106,1) 15%, rgba(122,70,147,1) 85%);
+	background: linear-gradient(to top, rgba(122,70,147,1) 0%, rgba(88,51,106,1) 33%, rgba(122,70,147,1) 66%);
+*/
 	
 }
-
-
 
 .card-view {
 	display: flex;
