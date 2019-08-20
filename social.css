@@ -18,7 +18,7 @@
 
 .social-icon:hover { 
 	transition-timing-function: ease;
-	transition-duration: 0.9s;
+	transition-duration: 0.15s;
 	width: 2.4em;
 	height: 2.4em;
 	margin: 0em;

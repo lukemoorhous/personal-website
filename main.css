@@ -14,12 +14,12 @@ h {
 }
 
 body {
-	background-color: #303036;
+	background-color: #e0e0e0;
 	font-size: 12pt;
 	font-weight: 400;
-	font-family: "Segoue UI", sans-serif;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	text-decoration: none;
 	text-rendering: optimizeSpeed;
-	color: #e0e0e0;
+	color: #363636;
 	text-decoration-color: #e0e0e0;
 }
