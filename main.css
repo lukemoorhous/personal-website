@@ -14,8 +14,6 @@ h {
 }
 
 body {
-	width: 100%;
-	height: 100%;
 	background-color: #303036;
 	font-size: 12pt;
 	font-weight: 400;
@@ -27,31 +25,4 @@ body {
 	margin: 0;
 	padding: 1em 10%;
 	border: 0;
-	
-	background: rgb(88,51,106);
-	background: -webkit-linear-gradient(bottom, rgba(88,51,106,1) 15%, rgba(122,70,147,1) 85%);
-	background: -o-linear-gradient(bottom, rgba(88,51,106,1) 15%, rgba(122,70,147,1) 85%);
-	background: linear-gradient(to top, rgba(88,51,106,1) 15%, rgba(122,70,147,1) 85%);
 }
-
-.card-view {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: flex-end;
-	align-content: flex-end;
-}
-
-.card {
-	border-radius: 8px;
-	box-shadow: -2px 3px 8px 1px rgba(0,0,0,0.2);
-  	transition: 0.36s;
-	overflow: hidden;
-	margin: auto;
-	width: 12%;
-}
-
-.card p {
-	text-align: center;
-}
-

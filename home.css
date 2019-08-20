@@ -1,0 +1,38 @@
+/* CSS Document */
+
+body {
+	background: rgb(88,51,106);
+	background: -webkit-linear-gradient(bottom, rgba(88,51,106,1) 15%, rgba(122,70,147,1) 85%);
+	background: -o-linear-gradient(bottom, rgba(88,51,106,1) 15%, rgba(122,70,147,1) 85%);
+	background: linear-gradient(to top, rgba(88,51,106,1) 15%, rgba(122,70,147,1) 85%);
+}
+
+
+
+.card-view {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	padding: 1em;
+}
+
+.card {
+	border-radius: 8px;
+	box-shadow: -2px 3px 8px 1px rgba(0,0,0,0.2);
+  	transition: 0.1s;
+	overflow: hidden;
+	margin: 1em;
+	width: 12%;
+}
+
+.card:hover {
+	background: #DC1216;
+}
+
+.card p {
+	text-align: center;
+}
+
+.container {
+	
+}
