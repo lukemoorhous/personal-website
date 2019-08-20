@@ -23,3 +23,13 @@ body {
 	color: #e0e0e0;
 	text-decoration-color: #e0e0e0;
 }
+
+.social-link {
+	
+}
+
+.social-icon {
+	height: 5%;
+	max-height: 2em;
+	margin:0 0.25em;
+}
